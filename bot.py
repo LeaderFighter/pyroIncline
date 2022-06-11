@@ -52,6 +52,4 @@ async def main():
                     print(e)
         except Exception as e:
             print(e)
-
-    app.run()
 asyncio.run(main())
