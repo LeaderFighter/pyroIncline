@@ -30,7 +30,7 @@ API_HASH = "6930b92388baabff4cb4a1d377085035"
 
 
 async def main():
-    async with Client(name=STRING_SESSION, API_ID, API_HASH) as app:
+    async with Client("kids", API_ID, API_HASH) as app:
         await app.send_message("me", "Bot Deployed Successfully!")
         print ("Bot Deployed To Spam!!!")
         
