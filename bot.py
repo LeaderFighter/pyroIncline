@@ -44,9 +44,9 @@ async def main():
                 
                 myChoice = random.choice(spam)
                 try:
-                    await app.send_chat_action(str(CHATID), enums.ChatAction.TYPING)
-                    await app.send_message(CHATID, myChoice)
-                    await app.send_chat_action(str(CHATID), enums.ChatAction.TYPING)
+                    await app.send_chat_action(int(CHATID), enums.ChatAction.TYPING)
+                    await app.send_message(int(CHATID), myChoice)
+                    await app.send_chat_action(int(CHATID), enums.ChatAction.TYPING)
                     await asyncio.sleep(0.4)
                 except Exception as e:
                     print(e)
