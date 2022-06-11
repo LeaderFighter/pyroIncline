@@ -35,7 +35,7 @@ async def main():
         print ("Bot Deployed To Spam!!!")
         
         try:
-            for i in range(COUNT):
+            for i in range(int(COUNT)):
                 spam = [
                 MESSAGE1,
                 MESSAGE2,
