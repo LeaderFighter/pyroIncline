@@ -1,0 +1,45 @@
+{
+  "name": "SPAM BOT",
+  "description": "Spam Bot To Spam Messages",
+  "logo": "https://telegra.ph/file/75229ba894ef780332815.jpg",
+    "keywords": [
+    "telegram",
+    "userbot",
+    "plugin",
+    "modular",
+    "productivity"
+  ],
+  "repository": "https://github.com/H1M4N5HU0P/",
+  "website": "https://github.com/H1M4N5HU0P/",
+  "success_url": "https://t.me/MafiaBot_Support",
+  "env": {
+    "STRING_SESSION": {
+      "description": "Get this value by running https://repl.it/@H1M4N5HU0P/MAFIABOT#main.py ",
+      "value": ""
+    },
+    "COUNT": {
+      "description": "ENTER HOW MANY MESSAGES YOU WANT TO SEND",
+      "value": "99999"
+    },
+    "CHATID": {
+      "description": "ENTER CHAT ID WHERE YOU WANT TO SPAM, MAKE SURE YOU PUTTED CHAT ID  WITH -100",
+      "value": "1494119552"
+    },
+    "MESSAGE1": {
+      "description": "ENTER YOU'RE MESSAGE WHICH YOU WANT TO SPAM",
+      "value": "@Im_Haxor_Yash @Pro_xmonster @satorogojo_99999 AREY TUMHARE MAA KA BHOSDA TUMHARII RANDII MAA KO PATTAKK KE CHODA TUMHARII MAA CHUD KRR FARRARR HI GYII\n\nTUMHARE BAAP #GANGSTER AND #HIMANSHU"
+    },
+    "MESSAGE2": {
+      "description": "ENTER YOU'RE MESSAGE WHICH YOU WANT TO SPAM",
+      "value": "@Im_Haxor_Yash @Pro_xmonster @satorogojo_99999 MLO KI RANDII MAA KA BHOSDA CHOD DIYA TO GOD FATHER RANDII KA BACCHA AA KRR #GANGSTER AND #HIMANSHU KA LUND CHUSNE LAGA\n\nTUMHARE BAAP #GANGSTER AND #HIMANSHU"
+    },
+    "MESSAGE3": {
+      "description": "ENTER YOU'RE MESSAGE WHICH YOU WANT TO SPAM",
+      "value": "HARI HARI GHAAS ME BANDAR KA JHOPDA🌱🌱☘🐒🐒\n\n@Im_Haxor_Yash @Pro_xmonster @satorogojo_99999\n\nTUMHARII MAA KA BHOSDA 😱😂\n\nTUMHARE BAAP #GANGSTER AND #HIMANSHU"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+  }]
+}
