@@ -28,13 +28,13 @@ API_ID = 2184829
 API_HASH = "6930b92388baabff4cb4a1d377085035"
 
 
-app = Client("MyPyroBot", session_string=STRING_SESSION, api_id=api_id, api_hash=api_hash, in_memory=True)
+app = Client("MyPyroBot", session_string=STRING_SESSION, api_id=API_ID, api_hash=API_HASH, in_memory=True)
 
 
 async def main():
     async with app:
         await app.send_message("me", "Bot Deployed Successfully!")
-        print ("Bot Deployed To Spam!!!")
+        print("Bot Deployed To Spam!!!")
         
         try:
             for i in range(int(COUNT)):
