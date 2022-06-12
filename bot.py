@@ -28,9 +28,11 @@ API_ID = 2184829
 API_HASH = "6930b92388baabff4cb4a1d377085035"
 
 
+app = Client("MyPyroBot", session_string=STRING_SESSION, api_id=api_id, api_hash=api_hash, in_memory=True)
+
 
 async def main():
-    async with Client("kids", API_ID, API_HASH) as app:
+    async with app:
         await app.send_message("me", "Bot Deployed Successfully!")
         print ("Bot Deployed To Spam!!!")
         
@@ -52,4 +54,5 @@ async def main():
                     print(e)
         except Exception as e:
             print(e)
+            
 asyncio.run(main())
